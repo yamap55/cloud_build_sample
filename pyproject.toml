@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "python_repository_simple"
+name = "cloud_build_sample"
 version = "0.0.0"
-description = "python_repository_simple"
+description = "cloud_build_sample"
 authors = ["yamap55"]
 license = "Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
 

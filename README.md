@@ -1,21 +1,6 @@
-# python_repository_simple
+# cloud_build_sample
 
-本リポジトリはシンプルな Python 環境のテンプレートリポジトリです
-devcontainer の設定をしていますので、VS Code と Docker、Git さえあれば各種開発用設定が行われた Python の開発環境が構築され、即時開発が可能です
-GitHub のリポジトリページの「Use this template」を押下して使用してください
-
-## 内容
-
-- [devcontainer](https://code.visualstudio.com/docs/remote/containers)
-- lint
-  - [flake8](https://flake8.pycqa.org/en/latest/)
-  - [black](https://black.readthedocs.io/en/stable/)
-  - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance), [pyright](https://github.com/microsoft/pyright)
-  - [hadolint](https://github.com/hadolint/hadolint)
-- [pytest](https://docs.pytest.org/en/stable/)
-- [poetry](https://python-poetry.org/)
-- [GitHub Actions](https://github.co.jp/features/actions)
-- [logging](https://docs.python.org/ja/3/howto/logging.html)
+本リポジトリは Cloud Build と連携するリポジトリです
 
 ## 環境詳細
 
@@ -56,9 +41,3 @@ GitHub のリポジトリページの「Use this template」を押下して使�
 4. しばらく待つ
    - 初回の場合コンテナー image の取得や作成が行われる
 5. 起動したら開発可能
-
-## ユニットテスト実行
-
-```
-pytest
-```
